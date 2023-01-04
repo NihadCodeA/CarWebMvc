@@ -1,0 +1,24 @@
+﻿@model Car
+<div class="h-[80vh] flex justify-center items-center">
+	<div>
+		<div class="flex justify-between lg:w-[1000px] mb-3 text-xl fw-bold">
+			<div class="px-2">@Model.Model.Brand.Name @Model.Model.Name</div>
+			<div class="px-2">@Model.Date.ToString("dd MMMM yy hh")</div>
+		</div>
+		<div class="lg:flex">
+			<div class="w-full lg:w-8/12">
+				<img src="https://turbo.azstatic.com/uploads/f460x343/2022%2F12%2F08%2F19%2F04%2F48%2F7d081222-9a78-433e-8fd4-ccb240c5fd28%2F89862_OLXhPT1EfM81A2bIfoA9aA.jpg" />
+			</div>
+
+			<div class="w-full lg:w-4/12">
+				<div class="p-2 text-lg">Price : @Model.Price$</div>
+				<div class="p-2 text-lg">Year : @Model.Year L</div>
+				<div class="p-2 text-lg">Engine : @(Model.Engine / 1000f)</div>
+				<div class="p-2 text-lg">Mileage : @Model.Mileage km</div>
+				<div class="p-2 text-lg">City : @Model.City</div>
+				<div class="p-2 text-lg">Color : @Model.Color</div>
+				<div class="p-2 text-lg">Seats count : @Model.SeatsCount</div>
+			</div>
+		</div>
+	</div>
+</div>

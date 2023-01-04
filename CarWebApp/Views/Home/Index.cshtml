@@ -1,0 +1,13 @@
+﻿@model HomeViewModel
+<div class="grid grid-cols-5 h-screen">
+	@foreach (Car car in Model.Cars)
+	{
+	<a asp-controller="home" asp-action="detail" asp-route-id="@car.Id" class="w-[230px] h-[270px] border hover:text-black">
+		<img class="w-full h-[150px]" src="https://turbo.azstatic.com/uploads/f460x343/2022%2F12%2F08%2F19%2F04%2F48%2F7d081222-9a78-433e-8fd4-ccb240c5fd28%2F89862_OLXhPT1EfM81A2bIfoA9aA.jpg" />
+		<div class="fw-bold px-2 pt-2">@car.Price</div>
+		<div class="px-2">@car.Model.Brand.Name @car.Model.Name</div>
+		<div class="px-2">@car.Year , @(car.Engine/1000f) L , @car.Mileage km</div>
+		<div class="px-2 text-gray-600">@car.City ,@car.Date.ToString("dd MMMM yy hh") </div>
+	</a>	
+	}
+</div>

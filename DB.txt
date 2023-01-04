@@ -1,0 +1,59 @@
+Brands table
+-------------
+1	Mercedes
+2	BMW
+3	Audi
+4	Toyota
+5	Nissan
+
+---------------------------------------------------------
+
+Models table
+-------------
+2	1	C200
+3	1	CLA250
+5	1	CLS500
+6	1	E300
+7	2	I7
+8	2	M3
+9	2	M4
+10	2	M5
+11	3	A4
+12	3	A5
+13	3	Q7
+14	3	Q8
+15	4	Prius
+16	4	Camry
+17	4	Corolla
+18	4	Prado
+19	5	Altima
+20	5	Patrol
+21	5	X-Trail
+22	5	Sunny
+----------------------------------------------------------------
+
+Cars table
+------------
+
+1	2	Baku	Black	2000	100	24000	4	2022	2023-01-03 00:00:00.0000000
+2	3	Agdam	Red	3000	200	30000	4	2009	2023-01-03 00:00:00.0000000
+3	5	Barda	White	2500	300	20000	4	2000	2023-01-03 00:00:00.0000000
+4	8	Lerik	Purple	3800	0	17000	4	2023	2023-01-03 00:00:00.0000000
+5	13	Masalli	Yellow	1800	4000	12000	5	2015	2023-01-03 00:00:00.0000000
+6	15	Qabala	Green	1600	50000	15000	6	2008	2023-01-03 00:00:00.0000000
+7	18	Shaki	Blue	2800	14000	14000	4	2005	2023-01-03 00:00:00.0000000
+8	12	Xizi	Orange	3000	300000	8000	4	1990	2023-01-03 00:00:00.0000000
+
+-------------------------------------------------------------------------------------------------------------------------
+
+
+CarImages table
+
+1	1	https://turbo.azstatic.com/uploads/f330x248/2023%2F01%2F03%2F17%2F11%2F48%2F53b6027d-0089-429d-a715-69f2711f43ee%2F73812_oSpn8Ab05tisPLthDaPJaQ.jpg
+2	2	https://media.evo.co.uk/image/private/s--q3dVYkg2--/v1586426105/evo/2020/04/2020%20Mercedes-Benz%20CLA250%20Coupe%20review-2.jpg
+3	3	https://carsguide-res.cloudinary.com/image/upload/f_auto%2Cfl_lossy%2Cq_auto%2Ct_default/v1/editorial/mercedes-benz-cls-500-2015-%286%29.jpg
+4	4	""
+5	5	https://hips.hearstapps.com/hmg-prod/images/2020-audi-q7-208-1584322589.jpg?crop=0.891xw:1.00xh;0.0749xw,0&resize=640:*
+6	6	""
+7	8	""
+8	7	https://rentin.az/files/cars/full/0b3412ada43869b5e44bcb3f3cfd2131.jpg
